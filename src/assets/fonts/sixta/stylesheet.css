@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Sixta';
+    src: url('Sixta-Bold.woff2') format('woff2'),
+        url('Sixta-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sixta';
+    src: url('Sixta-ExtraLight.woff2') format('woff2'),
+        url('Sixta-ExtraLight.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sixta';
+    src: url('Sixta-ExtraBold.woff2') format('woff2'),
+        url('Sixta-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sixta';
+    src: url('Sixta-Black.woff2') format('woff2'),
+        url('Sixta-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sixta';
+    src: url('Sixta-Light.woff2') format('woff2'),
+        url('Sixta-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sixta';
+    src: url('Sixta-Medium.woff2') format('woff2'),
+        url('Sixta-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sixta';
+    src: url('Sixta-Regular.woff2') format('woff2'),
+        url('Sixta-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sixta';
+    src: url('Sixta-Thin.woff2') format('woff2'),
+        url('Sixta-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

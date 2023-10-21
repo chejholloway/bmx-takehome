@@ -1,0 +1,44 @@
+@font-face {
+    font-family: 'DecimaPro';
+    src: url('./decima-pro/DecimaPro.woff2') format('woff2'),
+        url('./decima-pro/DecimaPro.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sixta';
+    src: url('./sixta/Sixta-ExtraBold.woff2') format('woff2'),
+        url('./sixta/Sixta-ExtraBold.woff') format('woff');
+    font-weight: 800;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Sixta';
+    src: url('./sixta/Sixta-Medium.woff2') format('woff2'),
+        url('./sixta/Sixta-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'BR Sonoma';
+    src: url('./br-sonoma/BRSonoma-Regular.woff2') format('woff2'),
+        url('./br-sonoma/BRSonoma-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+
+
+
+

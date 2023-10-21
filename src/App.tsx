@@ -3,11 +3,7 @@ import TakeHome from "./components/TakeHome.component";
 import "./index.css";
 
 function App() {
-  return (
-    <div className="App">
-      <TakeHome />
-    </div>
-  );
+  return  <TakeHome />
 }
 
 export default App;

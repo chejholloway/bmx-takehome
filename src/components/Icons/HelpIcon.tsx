@@ -5,7 +5,7 @@ import helpIcon from "../../assets/images/help-icon.png";
 
 function HelpIcon() {
   const iconHeight = "20";
-  const imageWidth = "50%";
+  const imageWidth = "20";
   const helpAltText = "help icon";
 
   return (

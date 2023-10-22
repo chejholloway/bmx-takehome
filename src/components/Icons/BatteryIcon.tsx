@@ -8,7 +8,7 @@ function BatteryIcon() {
 
   return (
     <img
-      className="h-auto"
+      className="h-auto inline-flex"
       src={batteryIcon}
       alt="battery icon"
       width={iconWidth}

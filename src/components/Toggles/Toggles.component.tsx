@@ -21,11 +21,15 @@ const TogglesComponent: React.FC<TogglesComponentProps> = ({
   toggleSeptember,
   toggleAugust,
 }) => {
+
+  const SeptemberText = "September 2023";
+  const AugustText ="August 2023";
+
   return (
     <TogglesSection>
       <SeptColumn>
         <SeptLabel>
-          <Month>September 2023</Month>
+          <Month>{SeptemberText}</Month>
           <Input
             type="checkbox"
             checked={showSeptember}
@@ -38,7 +42,7 @@ const TogglesComponent: React.FC<TogglesComponentProps> = ({
       </SeptColumn>
       <AugColumn>
         <AugLabel>
-          <Month>August 2023</Month>
+          <Month>{AugustText}</Month>
           <Input
             type="checkbox"
             checked={showAugust}

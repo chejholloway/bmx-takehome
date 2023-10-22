@@ -9,7 +9,7 @@ function SignalIcon() {
 
   return (
     <img
-      className="h-auto"
+      className="h-auto inline-flex"
       src={signalIcon}
       alt="signal icon"
       width={iconWidth}

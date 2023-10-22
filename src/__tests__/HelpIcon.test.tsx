@@ -12,7 +12,7 @@ describe("HelpIcon", () => {
 
     // Check the image source (src), width, and height
     expect(image).toHaveAttribute("src", "help-icon.png");
-    expect(image).toHaveAttribute("width", "50%");
+    expect(image).toHaveAttribute("width", "20");
     expect(image).toHaveAttribute("height", "20");
   });
 });

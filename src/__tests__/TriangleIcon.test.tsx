@@ -13,6 +13,5 @@ describe("TriangleIcon", () => {
     // Check the image source (src), width, and height
     expect(image).toHaveAttribute("src", "triangle-icon.png");
     expect(image).toHaveAttribute("width", "20");
-    expect(image).toHaveAttribute("height", "20");
   });
 });

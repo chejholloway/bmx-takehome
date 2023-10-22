@@ -32,10 +32,11 @@ const EnergyChartComponent: React.FC<EnergyChartComponentProps> = ({
             style={{
               fontSize: "11px",
               fontFamily: "BR Sonoma",
+              stroke: '#fff', strokeWidth: 4
             }}
           />
           <YAxis
-            domain={["auto", "auto"]}
+            domain={[0, 60]}
             style={{
               fontSize: "11px",
               fontFamily: "BR Sonoma",
@@ -43,9 +44,11 @@ const EnergyChartComponent: React.FC<EnergyChartComponentProps> = ({
           />
           <Tooltip />
           {showSeptember && (
-            <Bar dataKey="kWh" name="September" fill="#71c7e3" />
+            <>
+            <Bar dataKey="kWh" name="September" fill="#71c7e3" barSize={10}/>
+          </>
           )}
-          {showAugust && <Bar dataKey="kWh" name="August" fill="#82ca9d" />}
+          {showAugust && <Bar dataKey="kWh" name="August" fill="#82ca9d" barSize={10} />}
         </BarChart>
       </ResponsiveContainer>
     </ChartStyles>

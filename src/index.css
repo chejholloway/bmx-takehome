@@ -33,3 +33,7 @@ div[class*="absolute inset-y-0 "] > svg {
   left:2rem;
   color: #615b5b ;
 }
+
+.recharts-cartesian-axis-tick {
+  color: #615b5b;
+}

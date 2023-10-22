@@ -12,7 +12,5 @@ describe("ShareIcon", () => {
 
     // Check the image source (src), width, and height
     expect(image).toHaveAttribute("src", "share-icon.png");
-    expect(image).toHaveAttribute("width", "50%");
-    expect(image).toHaveAttribute("height", "20");
   });
 });

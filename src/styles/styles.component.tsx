@@ -46,15 +46,15 @@ export const Update = tw.p`relative right-12 text-xs text-slate-500 font-br`;
 export const SunCircleColumn = tw.div`col-3`;
 export const TextColumn = tw.div`col-9`;
 
-export const Month = tw.span`mt-8 text-xs font-br text-gray-500`;
+export const Month = tw.span`mt-8 text-xs font-br text-gray-500 mt-8 text-xs font-br text-gray-500`;
 export const TogglesSection = tw.div`row text-center pb-4 -ml-12`;
 export const SeptLabel = tw.label`relative inline-flex cursor-pointer`;
 export const SeptColumn = tw.div`col-6`;
 export const SeptToggle =
   "-ml-16 w-11 h-4 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:bg-blue-dark peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[-7px] after:left-6 after:bg-gray-400 after:border-gray-300 after:border after:rounded-full after:h-7 after:w-7 after:transition-all border-gray-600";
-export const AugLabel = tw.label`relative inline-flex cursor-pointer right-4`;
-export const AugColumn = tw.div`col-6 relative right-10`;
+export const AugLabel = tw.label`relative inline-flex cursor-pointer`;
+export const AugColumn = tw.div`col-6`;
 export const AugToggle =
-  "relative right-14 w-11 h-4 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:bg-blue-dark peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[-6px] after:left-6 after:bg-gray-400 after:border-gray-300 after:border after:rounded-full after:h-7 after:w-7 after:transition-all border-gray-600";
+  "relative right-[3.5rem] w-11 h-4 bg-gray-200 peer-focus:outline-none rounded-full peer peer-checked:after:bg-blue-dark peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[-6px] after:left-0 after:bg-gray-400 after:border-gray-300 after:border after:rounded-full after:h-7 after:w-7 after:transition-all border-gray-600";
 export const Input = tw.input``;
 export const SrOnlyPeer = "sr-only peer";

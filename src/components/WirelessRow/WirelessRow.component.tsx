@@ -7,18 +7,20 @@ import TargetIcon from "../Icons/TargetIcon";
 import BatteryIcon from "../Icons/BatteryIcon";
 
 const TargetIconStyles = tw.div`col relative right-6 top-[3px]`;
-const TimeStyles = tw.div`text-white`;
+const TimeStyles = tw.div`text-white relative left-8`;
 
 
 function WirelessRow() {
+  const time = "11:21";
+
   return (
     <section id="wireless_row" className="row bg-blue py-4 border-0">
       {/* start time and target icons */}
       <div className="col">
-        <div className="row pl-[5rem]">
+        <div className="row">
           <div className="col">
             <TimeStyles>
-              11:21
+              {time}
             </TimeStyles>
           </div>
           <TargetIconStyles>

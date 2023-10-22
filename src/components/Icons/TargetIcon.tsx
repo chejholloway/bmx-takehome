@@ -8,7 +8,7 @@ function TargetIcon() {
 
   return (
     <img
-      className="h-auto max-w-full ml-2"
+      className="h-auto  ml-2"
       src={targetIcon}
       alt="target icon"
       width={iconWidth}

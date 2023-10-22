@@ -20,6 +20,10 @@ const TakeHome: React.FC = () => {
   const [showAugust, setShowAugust] = useState(false);
   const { data, error, isLoading } = useEnergyData();
 
+  const loadingText = "Loading...";
+  const errorText = "Error loading data: ";
+  const NoDataText ="No data available.";
+
   const toggleSeptember = () => {
     setShowSeptember(!showSeptember);
     setShowAugust(false);
@@ -31,11 +35,11 @@ const TakeHome: React.FC = () => {
   };
 
   if (isLoading) {
-    return <div>Loading...</div>;
+    return <>{loadingText}</>;
   }
 
   if (error) {
-    return <div>Error loading data: {error.message}</div>;
+    return <>{errorText} {error.message}</>;
   }
 
   if (data) {
@@ -68,7 +72,7 @@ const TakeHome: React.FC = () => {
     );
   }
 
-  return <div>No data available.</div>;
+  return <div>{NoDataText}</div>;
 };
 
 export default TakeHome;

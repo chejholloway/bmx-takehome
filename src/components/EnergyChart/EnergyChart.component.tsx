@@ -36,8 +36,9 @@ const EnergyChartComponent: React.FC<EnergyChartComponentProps> = ({
             }}
           />
           <YAxis
-            domain={[0, 60]}
-            tickSize={10}
+            type="number"
+            ticks={[10, 20, 30, 40, 50, 60]}
+            domain={[10, 60]}
             style={{
               fontSize: "11px",
               fontFamily: "BR Sonoma",

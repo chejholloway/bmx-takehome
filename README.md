@@ -1,4 +1,5 @@
-# Getting Started with Create React App
+# Bright MX Take Home Test
+## Enphase Month Screen
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
